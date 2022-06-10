@@ -1,0 +1,83 @@
+board:
+  buy_url_cn: https://item.taobao.com/item.htm?spm=a230r.1.14.8.67ce2ea70ArHBJ&id=676044382014&ns=1&abbucket=8#detail
+  buy_url_global: N/A
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: N/A
+  description_zh: N/A
+  emulator_machine: ''
+  large_image: documents/images/100ASK_STM32F103开发板实物图(不带屏).jpg
+  name: STM32F103-100ASK-PRO
+  price_cn: 448 CNY
+  price_global: N/A USD
+  sale_contact_cn: https://www.100ask.net/
+  sale_contact_global: N/A
+  small_image: documents/images/200x300_2.jpg
+  vendor: 100ask
+  version: 1.0.0
+chip:
+  chip_name: STM32F103ZET6
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32F1
+  source_freq: '8000000'
+  sub_series_name: STM32F103
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/100ASK_STM32F103用户手册V1.1.pdf
+  title: 100ASK_STM32F103用户手册V1.1
+example_projects: []
+features:
+- RGB LED
+- Keys *4
+- SPI Flash、I2C EEPROM
+- other resources on board
+features_zh:
+- RGB LED
+- 4个按键
+- SPI Flash、I2C EEPROM、
+- 其它丰富的板载资源
+pkg_type: Board_Support_Packages
+pkg_vendor: 100ask
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files: []
+  project_description: ''
+  project_name: stm32f103-100ask-pro
+  project_type: rt-thread|@full|@4.0.2
+yaml_version: 3
